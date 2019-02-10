@@ -1,0 +1,40 @@
+html {
+    font-family: 'Nunito', sans-serif;
+    -webkit-font-smoothing: antialiased !important;
+
+}
+
+
+b, strong {
+     font-weight: 700!important;
+}
+
+
+ul.post-details > li {
+    display: inline-block;
+    color: #adadad;
+    font-weight: 700;
+    font-size: 0.8em;
+    padding: 6px;
+    border-radius: 4px;
+    border: solid 1px gainsboro;
+    margin: 5px;
+}
+
+
+ul.post-details > li:hover {
+    color: #4a4a4a;
+    border-radius: 4px;
+    border: solid 1px #4a4a4a;
+    transition: all 0.5s ease-in-out;
+}
+
+.pt-120 {
+    padding-top: 120px;
+}
+
+@media (max-width: 991.98px) {
+.sticking .header-menu #menu-button {
+    color: #ffcb1a!important;
+}
+}
