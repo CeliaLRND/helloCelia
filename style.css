@@ -1,0 +1,27 @@
+body {
+	background: rgb(244,242,246);
+background: linear-gradient(90deg, rgba(244,242,246,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.txt {
+	//margin: 1em;
+}
+
+.titre {
+	margin: 1em;
+}
+.soustitre {
+}
+.soussoustitre {
+	margin-bottom: 1em;
+}
+.email {
+	border-bottom: 1px solid transparent;
+}
+.email:hover {
+	border-bottom: 1px solid #adadad;
+	transition: all 0.15s ease;
+	color: black !important;
+}
+.contactus {}
+
